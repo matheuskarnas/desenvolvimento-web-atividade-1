@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Inscrição</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/logo.jpg" alt="Logomarca da atlética Fatecanos" />
+        <nav>
+          <ul>
+            <li><a href="/frontend/index.html">Home</a></li>
+            <li><a href="/frontend/about/index.html">Sobre</a></li>
+            <li><a href="/frontend/contact/index.html">Inscrição</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <article>
+          <h2 class="title">Inscreva-se e Faça Parte da Atlética Fatecanos</h2>
+          <p>
+            Quer fazer parte de um time vencedor e viver a experiência esportiva
+            universitária? A Atlética Fatecanos está em busca de novos talentos
+            para integrar nossas equipes! Se você é apaixonado por esporte e
+            quer se envolver nas competições e eventos da faculdade, este é o
+            seu momento.
+          </p>
+          <p>
+            Preencha o formulário abaixo e inscreva-se para se tornar um dos
+            nossos atletas. Todos os cursos e níveis de habilidade são
+            bem-vindos, o que importa é sua vontade de competir, evoluir e
+            representar a nossa Atlética.
+          </p>
+
+          <p class="title"><strong>Como funciona:</strong></p>
+          <ol>
+            <li>Preencha todos os campos obrigatórios do formulário.</li>
+            <li>
+              Entraremos em contato com você para mais informações sobre as
+              próximas etapas do processo de seleção.
+            </li>
+            <li>
+              Esteja preparado para participar de nossos treinos e competições.
+            </li>
+          </ol>
+        </article>
+        <h2 class="title">Inscrição</h2>
+        <form action="" method="POST">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="genero">Gênero:</label>
+          <select id="genero" name="genero" required>
+            <option value="" disabled selected hidden>Selecione</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+          </select>
+
+          <label for="curso">Curso:</label>
+          <select id="curso" name="curso" required>
+            <option value="" disabled selected hidden>Selecione</option>
+            <option value="dsm">
+              Desenvolvimento de Software Multiplataforma
+            </option>
+            <option value="ads">Análise e Desenvolvimento de Sistema</option>
+            <option value="bd">Banco de Dados</option>
+            <option value="ma">Manufatura Avançada</option>
+          </select>
+
+          <label for="periodo">Período do curso:</label>
+          <select id="periodo" name="periodo" required>
+            <option value="" disabled selected hidden>Selecione</option>
+            <option value="manha">Manhã</option>
+            <option value="tarde">Tarde</option>
+            <option value="noite">Noite</option>
+          </select>
+
+          <label for="esporte">Esporte de interesse:</label>
+          <select id="esporte" name="esporte" required>
+            <option value="" disabled selected hidden>Selecione</option>
+            <option value="futebol">Futebol</option>
+            <option value="volei">Vôlei</option>
+            <option value="handball">Handball</option>
+            <option value="corrida">Corrida</option>
+          </select>
+          <button type="submit">Enviar</button>
+        </form>
+      </main>
+      <footer>
+        <p>© 2024 Atlética Fatecanos São José dos Campos</p>
+      </footer>
+    </div>
+  </body>
+</html>
